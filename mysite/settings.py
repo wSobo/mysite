@@ -115,6 +115,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Email
+
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_HOST_USER = '872561763@qq.com'
+EMAIL_HOST_PASSWORD = 'weiyiaini1314'
+EMAIL_PORT = 587
+EMAIL_USE_TLS =True
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
