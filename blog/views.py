@@ -67,7 +67,7 @@ def post_detail(request, year, month, day, post):
                    'comments': comments,
                    'new_comment': new_comment,
                    'comment_form': comment_form,
-                   'similar_posts':similar_posts})
+                   'similar_posts': similar_posts})
 
 
 def post_share(request, post_id):
@@ -93,6 +93,7 @@ def post_share(request, post_id):
     return render(request, 'blog/post/share.html',
                   {'post': post,
                    'form': form,
+                   'sent': sent,
                    'cd': cd})
 
 
